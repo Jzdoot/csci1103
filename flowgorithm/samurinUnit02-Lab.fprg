@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jsamurin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-20 11:39:10 AM"/>
+        <attribute name="created" value="anNhbXVyaW47RkNFNzk1OzIwMjYtMDEtMjA7MTE6MjA6MDAgQU07MjQ5MA=="/>
+        <attribute name="edited" value="anNhbXVyaW47RkNFNzk1OzIwMjYtMDEtMjA7MTE6Mzk6MTAgQU07MjsyNjEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Jacob Samurin&#13;&#10;01/20/2026&#13;&#10;I created a flowchart to compute the length of a year on a diffrent planet in earth years."/>
+            <declare name="plantet" type="String" array="False" size=""/>
+            <output expression="&quot;Enter name of the planet&quot;" newline="True"/>
+            <input variable="plantet"/>
+            <declare name="au" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter distance from the sun (in AU)&quot;" newline="True"/>
+            <input variable="au"/>
+            <output expression="&quot;A year on the planet &quot; &amp; plantet &amp; &quot; equals &quot; &amp; sqrt(au^3) &amp; &quot; Earth years&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

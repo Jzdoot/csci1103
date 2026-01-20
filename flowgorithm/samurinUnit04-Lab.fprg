@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jsamurin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-20 12:39:57 PM"/>
+        <attribute name="created" value="anNhbXVyaW47RkNFNzk1OzIwMjYtMDEtMjA7MTI6MjA6NDUgUE07MjUxNQ=="/>
+        <attribute name="edited" value="anNhbXVyaW47RkNFNzk1OzIwMjYtMDEtMjA7MTI6Mzk6NTcgUE07MTsyNjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Jacob Samurin&#13;&#10;01/20/2026&#13;&#10;I created a flowchart to compute and IRA's growth with interest and and annual contribuition."/>
+            <declare name="years, period, i" type="Integer" array="False" size=""/>
+            <declare name="total, rate" type="Real" array="False" size=""/>
+            <assign variable="total" expression="0"/>
+            <output expression="&quot;Enter # of years for IRA&quot;" newline="True"/>
+            <input variable="years"/>
+            <output expression="&quot;Enter interest rate&quot;" newline="True"/>
+            <input variable="rate"/>
+            <output expression="&quot;Enter annual contribution&quot;" newline="True"/>
+            <input variable="period"/>
+            <for variable="i" start="1" end="years" direction="inc" step="1">
+                <assign variable="total" expression="total+period"/>
+                <assign variable="total" expression="(total*(rate/100))+total"/>
+                <output expression="&quot;Year: &quot; &amp; i &amp; &quot; Total: $&quot; &amp; total" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
