@@ -1,0 +1,3 @@
+[submodule "my-first-repo"]
+	path = my-first-repo
+	url = git@github.com:Jzdoot/my-first-repo.git
