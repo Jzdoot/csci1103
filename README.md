@@ -11,5 +11,9 @@ This is a Intro Programming Logic class in the repo I have all the labs I have c
 - Unit 6 | zyBooks/introductionToPython/
     + Lab 1.12 | zyBooks/introductionToPython/oneLargeProgram1.12/
     + Lab 1.13 | zyBooks/introductionToPython/noPakingSign1.13/
+- Unit 7 | zyBooks/variablesAndExpressions
     + Lab 2.14 | zyBooks/variablesAndExpressions/divideInputIntegers/
     + Lab 2.15 | zyBooks/variablesAndExpressions/drivingCosts/
+- Unit 8 | zybooks/types
+    + Lab 3.13 | zybooks/types/listBasics
+    + Lab 3.14 | zybooks/types/setBasics
