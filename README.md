@@ -21,5 +21,11 @@ This is a Intro Programming Logic class in the repo I have all the labs I have c
     + Lab 4.14 | zybooks/branching/smallestNumber/
     + Lab 4.15 | zybooks/branching/interstateHighwayNumber/
 - Unit 10 | zybooks/loops/
-    + Lab 4.14 | zybooks/loops/convertToReverseBinary/
-    + Lab 4.15 | zybooks/loops/passwordModifier/
+    + Lab 5.14 | zybooks/loops/convertToReverseBinary/
+    + Lab 5.15 | zybooks/loops/passwordModifier/
+- Unit 11 | zybooks/functions/
+    + Lab 6.18 |  zybooks/functions/drivingCostFunctions/
+    + Lab 6.19 |  zybooks/functions/unitTestToEvaluateYourProgram/
+- Unit 12 | zybooks/strings/
+    + Lab 7.5 | zybooks/strings/countCharacters/
+    + Lab 7.6 | zybooks/strings/madLibLoops/
