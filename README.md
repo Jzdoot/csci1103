@@ -30,4 +30,5 @@ This is a Intro Programming Logic class in the repo I have all the labs I have c
     + Lab 7.5 | zybooks/strings/countCharacters/
     + Lab 7.6 | zybooks/strings/madLibLoops/
 - Unit 13 | zybooks/listAndDictionaries/
-    + Lab 8.17 | zybooks/listAndDictionaries/variedAmountOfInputData/
+    + Lab 8.16 | zybooks/listAndDictionaries/variedAmountOfInputData/
+    + Lab 8.17 | zybooks/listAndDictionaries/filterAndSortAList/
